@@ -1,0 +1,46 @@
+body {
+    background-color: #f2f2f2!important;
+}
+
+.banner {
+    height: 760px!important;
+    width: 100%!important;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        height: 180px!important;
+        width: 510px!important;
+    }
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.presentacion {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contenido {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.col-lg-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.estilo {
+    color: white;
+}
+
+span {
+    color: greenyellow;
+}
+
+a.nav-link:hover {
+    color: greenyellow!important;
+}
